@@ -6,7 +6,7 @@
 
 <h1 align="center">Deboraj Sarkar · Debotaro</h1>
 
-<p align="center"><strong>Frontend Developer · Computer Science student · Graphic design background</strong></p>
+<p align="center"><strong>Digital Designer | AI-Assisted Product Design &amp; Development</strong></p>
 
 <p align="center">
   <a href="https://debotaro.github.io/">Portfolio</a> ·
@@ -16,15 +16,29 @@
   <a href="mailto:mail.deborajsarkar@gmail.com">Email</a>
 </p>
 
-**Seeking full-time junior frontend/React roles.** Based in Kokrajhar, Assam, India; available to start within one week and open to remote opportunities or relocation for the right role.
+**Seeking Digital Designer opportunities across UI/UX, websites and digital products.** Based in Kokrajhar, Assam, India; open to remote opportunities.
 
-I bring paid graphic design experience to personal frontend projects, with a focus on clear visual hierarchy and thoughtful interfaces. I'm studying for a bachelor's degree in Computer Science at the University of the People (June 2025–present). Previously, I worked as a Graphic Designer at Wecanstore.com (June 2022–July 2023), creating banners, social graphics and marketing materials.
+I bring paid graphic design experience to visual interfaces and working digital products, with a focus on clear hierarchy, responsive layouts and thoughtful interactions. I'm studying for a bachelor's degree in Computer Science at the University of the People (June 2025–present). Previously, I worked as a Graphic Designer at Wecanstore.com (June 2022–July 2023), creating banners, social graphics and marketing materials.
 
 My projects use **AI-assisted implementation with Codex**. I set the visual direction, review generated interfaces, request iterations and make the final decisions. The case studies explain the working features, validation and demo limits.
 
+## Flagship project · Debotaro Studio
+
+A visual application builder that connects responsive design with a documented React/TypeScript code subset. Its fictional support workspace has working search, filters, ticket details and assignment.
+
+[![Debotaro Studio running with its layer tree, support-workspace canvas and contextual inspector](https://raw.githubusercontent.com/Debotaro/debotaro-studio/main/docs/screenshots/editor-desktop.png)](https://github.com/Debotaro/debotaro-studio)
+
+**My contribution:** product direction, target audience, requirements and visual goals. Implementation was developed with Codex through documented contracts, review and executable verification.
+
+**What works:** visual editing, reusable components/tokens, desktop/tablet/phone preview, inspected TSX changes, authenticated collaboration, offline recovery, version history and independent React project export.
+
+**Evidence and limits:** at the 14 October 2026 checkpoint, 236 automated tests and 19 production browser tests passed; a clean exported application was built and exercised independently. These are local technical checks, not business or adoption metrics. Studio needs a Node/WebSocket service and persistent SQLite; live AI inference remains unverified pending application configuration.
+
+[Case study](https://github.com/Debotaro/debotaro-studio/blob/main/docs/CASE_STUDY.md) · [Source and local setup](https://github.com/Debotaro/debotaro-studio) · [Verification](https://github.com/Debotaro/debotaro-studio/blob/main/docs/VERIFICATION.md)
+
 [![RELAY OS design review interface](https://raw.githubusercontent.com/Debotaro/Debotaro.github.io/main/previews/relay-review.png)](https://debotaro.github.io/relay-os/)
 
-## Featured product interfaces
+## More product interfaces
 
 | Project       | Focus                                                                                  | Technologies                             | Explore                                                                                                                                                                                                                             |
 | ------------- | -------------------------------------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
