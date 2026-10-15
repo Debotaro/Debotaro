@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://debotaro.github.io/">Portfolio</a> ·
-  <a href="https://debotaro.github.io/downloads/Deboraj-Sarkar-Resume.pdf">Résumé</a> ·
+  <a href="assets/Deboraj-Sarkar-Digital-Designer-Resume.pdf">Résumé</a> ·
   <a href="https://www.linkedin.com/in/deborajsarkar/">LinkedIn</a> ·
   <a href="https://dribbble.com/Debotaro">Dribbble</a> ·
   <a href="mailto:mail.deborajsarkar@gmail.com">Email</a>
