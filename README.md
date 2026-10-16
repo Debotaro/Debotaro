@@ -6,21 +6,41 @@
 
 <h1 align="center">Deboraj Sarkar · Debotaro</h1>
 
-<p align="center"><strong>Digital Designer | AI-Assisted Product Design &amp; Development</strong></p>
+<p align="center"><strong>AI Software &amp; Automation Developer<br />Python APIs, Retrieval &amp; Reliable Workflows | Computer Science Student</strong></p>
 
 <p align="center">
   <a href="https://debotaro.github.io/">Portfolio</a> ·
-  <a href="assets/Deboraj-Sarkar-Digital-Designer-Resume.pdf">Résumé</a> ·
+  <a href="https://debotaro.github.io/downloads/Deboraj-Sarkar-Resume.pdf">Résumé PDF</a> ·
   <a href="https://www.linkedin.com/in/deborajsarkar/">LinkedIn</a> ·
   <a href="https://dribbble.com/Debotaro">Dribbble</a> ·
   <a href="mailto:mail.deborajsarkar@gmail.com">Email</a>
 </p>
 
-**Seeking Digital Designer opportunities across UI/UX, websites and digital products.** Based in Kokrajhar, Assam, India; open to remote opportunities.
+**Seeking junior and associate software, applied AI and automation opportunities.** Based in Kokrajhar, Assam, India; open to remote opportunities.
 
-I bring paid graphic design experience to visual interfaces and working digital products, with a focus on clear hierarchy, responsive layouts and thoughtful interactions. I'm studying for a bachelor's degree in Computer Science at the University of the People (June 2025–present). Previously, I worked as a Graphic Designer at Wecanstore.com (June 2022–July 2023), creating banners, social graphics and marketing materials.
+I'm building personal software projects around source evidence, recoverable workflows and clear interfaces. My paid graphic design background informs how I make a system's state and next action understandable. I'm studying for a bachelor's degree in Computer Science at the University of the People (June 2025–present). Previously, I worked as a Graphic Designer at Wecanstore.com (June 2022–July 2023), creating banners, social graphics and marketing materials.
 
-My projects use **AI-assisted implementation with Codex**. I set the visual direction, review generated interfaces, request iterations and make the final decisions. The case studies explain the working features, validation and demo limits.
+Personal projects developed with **Codex assistance**. The repositories and case studies document implementation, executable checks and limits. Project selection and implementation for EvidenceDesk and FlowLedger were delegated to Codex under my portfolio mission; their capabilities are evidence about the software, not independently assessed individual proficiency or prior AI engineering employment. For the earlier interface collection, my owner-reported contribution covers visual direction, review and iteration.
+
+## Applied AI & reliable automation
+
+### EvidenceDesk · Local validation
+
+![EvidenceDesk running locally with fictional support policies, cited excerpts and query history](assets/evidence-workbench.png)
+
+A support knowledge workbench that versions policies and runbooks, compares BM25 with real local MiniLM embeddings, returns cited source excerpts and can abstain when a question is unsupported. Python/FastAPI, SQLite and a browser interface connect ingestion, retrieval, query history and deletion.
+
+Responses are extractive. On 16 October 2026, hybrid retrieval found supporting sources in 14/18 answerable synthetic holdout questions at Recall@3, versus 11/18 for BM25; all 8 unsupported/adversarial holdout questions were refused, with 100% citation snapshot traceability. Forty-six backend tests and Ruff checks passed locally. The small fixture measures retrieval, refusal and source integrity, not generative LLM quality or customer impact. Public source and service hosting await approval.
+
+### FlowLedger · Local validation
+
+![FlowLedger running locally with fictional support jobs, approvals, retries and persistent local cases](assets/flow-queue.png)
+
+A complete bounded Python/FastAPI workflow service with typed events, deterministic routing, approval decisions, a transactional outbox, fenced worker leases, bounded retries and an inspectable audit trail. A separate polling worker executes real persistent local case actions.
+
+On 16 October 2026, 20 backend tests and Ruff checks passed, together with 9/9 isolated local SQLite experiments. Twelve concurrent repeated submissions created one job; eight workers completed 16 jobs with zero duplicate local cases. Real subprocess exits after effect commit and before acknowledgement on first and final attempts recovered one local case in each experiment, using an explicit one-second lease override. Retry/lease boundary checks use injected UTC. This is local effect reconciliation, not a general exactly-once guarantee, external integration or customer outcome. Public source and service hosting await approval.
+
+The portfolio's local review edition includes separate case-study pages for these projects. Public links will be added after approved publication; no unavailable repository or hosted-demo URL is presented here.
 
 ## Flagship project · Debotaro Studio
 
@@ -32,7 +52,7 @@ A visual application builder that connects responsive design with a documented R
 
 **What works:** visual editing, reusable components/tokens, desktop/tablet/phone preview, inspected TSX changes, authenticated collaboration, offline recovery, version history and independent React project export.
 
-**Evidence and limits:** at the 14 October 2026 checkpoint, 236 automated tests and 19 production browser tests passed; a clean exported application was built and exercised independently. These are local technical checks, not business or adoption metrics. Studio needs a Node/WebSocket service and persistent SQLite; live AI inference remains unverified pending application configuration.
+**Evidence and limits:** the dated verification ledger distinguishes local automated/browser runs from historical clean independent-export checks. These are technical checks, not business or adoption metrics. Studio needs a Node/WebSocket service and persistent SQLite; live AI inference remains unverified and the backend is not externally hosted at the documented checkpoint.
 
 [Case study](https://github.com/Debotaro/debotaro-studio/blob/main/docs/CASE_STUDY.md) · [Source and local setup](https://github.com/Debotaro/debotaro-studio) · [Verification](https://github.com/Debotaro/debotaro-studio/blob/main/docs/VERIFICATION.md)
 
@@ -58,9 +78,13 @@ These are personal concepts using sample records and browser-local state. NOVA a
 
 ## Technologies used in projects
 
+**Applied AI and automation:** Python · FastAPI · SQLite · information retrieval · BM25 · local embeddings · API validation · workflow reliability
+
 **Frontend:** React · Next.js · TypeScript · JavaScript · HTML · CSS · Tailwind CSS
 
 **Tools and workflow:** Git · GitHub · Figma · Codex · Visual review and design iteration
+
+Project technologies describe the software artifacts; they do not establish independently assessed proficiency. EvidenceDesk and FlowLedger are locally verified; public source release and service hosting await approval.
 
 ## Education and selected learning
 
